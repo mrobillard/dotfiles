@@ -21,7 +21,7 @@ If you are on OS X, this should work right out of the box.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/mrobillard/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
