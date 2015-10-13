@@ -2,7 +2,7 @@
 
 " ---------------------------------- Colors ------------------------------------
 syntax enable                   " enable syntax processing
-colorscheme monokai             " set colorscheme
+colorscheme molokai             " set colorscheme
 
 
 " ----------------------------------- Misc -------------------------------------
@@ -12,7 +12,7 @@ call pathogen#infect()          " Pathogen package manager
 
 
 " ------------------------------- Spaces & Tabs  -------------------------------
-set tabstop=4                   " set tab length to 4 
+set tabstop=4                   " set tab length to 4
 set expandtab                   " insert space characters instead of tab
 set softtabstop=4               " control how many columns vim uses for tab
 set shiftwidth=4                " control how many columns text is indented with
@@ -32,22 +32,22 @@ set ruler                       " shows ruler (line number, column number)
 " --------------------------------- Searching ----------------------------------
 set ignorecase                  " ignore case for searching
 set incsearch                   " allows for incremental searches
-set hlsearch                    " turns on search highlighting 
+set hlsearch                    " turns on search highlighting
 
 
 " ---------------------------------- Folding -----------------------------------
 set foldmethod=indent           " fold groups of lines with the same indent
-set foldnestmax=10              " max number of folds 
+set foldnestmax=10              " max number of folds
 set foldenable                  " enable folding
-nnoremap <space> za             
-set foldlevelstart=10           
+nnoremap <space> za
+set foldlevelstart=10
 
 
 " -------------------------------- Backups -------------------------------------
 set backup                                           " Set backup directory
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp  
-set backupskip=/tmp/*,/private/tmp/*                  
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp  
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupskip=/tmp/*,/private/tmp/*
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
 

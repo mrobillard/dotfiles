@@ -30,13 +30,13 @@ commands can be used be substituting the * with the following commands.
 Type 'help NERDTreeMappings' to read through all of the default keyboard
 shortcuts. These are the ones I use most frequently.
 
-* 't': Open the seelcted file in a new tab
-* 'i': Open the selected file in a horizontal split window
-* 's': Open the selected file in a vertical split window
-* 'I': Toggle hidden files
-* 'm': Show the NERD Tree menu
-* 'R': Refresh teh ree, useful if files change outside of Vim
-* '?:' Toggle NERD Tree's quick help
+* ```t```: Open the seelcted file in a new tab
+* ```i```: Open the selected file in a horizontal split window
+* ```s```: Open the selected file in a vertical split window
+* ```I```: Toggle hidden files
+* ```m```: Show the NERD Tree menu
+* ```R```: Refresh teh ree, useful if files change outside of Vim
+* ```?```: Toggle NERD Tree's quick help
 
 #### GitGutter
 
