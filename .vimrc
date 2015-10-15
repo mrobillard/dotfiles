@@ -12,12 +12,16 @@ call pathogen#infect()          " Pathogen package manager
 
 
 " ------------------------------- Spaces & Tabs  -------------------------------
-set tabstop=4                   " set tab length to 4
-set expandtab                   " insert space characters instead of tab
-set softtabstop=4               " control how many columns vim uses for tab
-set shiftwidth=4                " control how many columns text is indented with
-                                " the reindent operations
+"set tabstop=4                   " set tab length to 4
+"set expandtab                   " insert space characters instead of tab
+"set softtabstop=4               " control how many columns vim uses for tab
+"set shiftwidth=4                " control how many columns text is indented with
+                                 " the reindent operations
 
+set autoindent                   " use these settings to not have tabs 
+set noexpandtab                  " converted to spaces
+set tabstop=4
+set shiftwidth=4
 
 " -------------------------------- UI Layout -----------------------------------
 set number                      " set line numbers
