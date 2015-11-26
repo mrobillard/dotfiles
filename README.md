@@ -58,6 +58,10 @@ And you can turn line highlighting on and off (defaults to off):
 * turn off with `:GitGutterLineHighlightsDisable`
 * toggle with `:GitGutterLineHighlightsToggle`.
 
+### Development
+
+Contains bash environment configuration for a git-aware prompt. 
+
 ## How to Use
 
 If you are on OS X, this should work right out of the box.
@@ -83,7 +87,7 @@ git pull origin master
 To progogate those changes to your environment:
 
 ```sh
-make update
+make update-all
 ```
 
 ## License

@@ -30,3 +30,7 @@ update-all:
 	cp -rf ~/.vim .
 	cp ~/.vimrc .
 	cp ~/.githelpers .
+
+help:
+	echo "install-all: Installs everything."
+	echo "instal-vim: Installs only vim plugins."
