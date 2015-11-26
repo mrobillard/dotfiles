@@ -44,5 +44,5 @@ export PS1="
 < ${CYAN_BOLD}\t ${CYAN}\w${GREEN} "'$(__git_ps1 "(%s$(git-dirty))") '"${GRAY}%> "
 
 }
-
+prompt
 
