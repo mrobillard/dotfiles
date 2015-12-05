@@ -19,7 +19,7 @@ call pathogen#infect()          " Pathogen package manager
                                  " the reindent operations
 
 set autoindent                   " use these settings to not have tabs 
-set noexpandtab                  " converted to spaces
+set noexpandtab                  " tabs NOT converted to spaces (Makefile support)
 set tabstop=4
 set shiftwidth=4
 
