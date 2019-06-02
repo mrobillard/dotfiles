@@ -2,7 +2,7 @@
 
 # Log output:
 #
-# * 51c333e    (12 days)    <Gary Bernhardt>   add vim-eunuch
+# * 51c333e    (12 days)    <Matt Robillard>   add vim-eunuch
 #
 # The time massaging regexes start with ^[^<]* because that ensures that they
 # only operate before the first "<". That "<" will be the beginning of the

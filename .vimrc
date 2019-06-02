@@ -54,11 +54,6 @@ set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
-
-" -------------------------------- NERDTree ------------------------------------
-let NERDTreeIgnore = ['\.pyc$', 'build', 'venv', 'dist', 'docs']
-
-
 " -------------------------------- Syntastic -----------------------------------
 let g:syntastic_python_flake8_args='--ignore=E501'
 
