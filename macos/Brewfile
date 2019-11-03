@@ -1,0 +1,38 @@
+
+tap 'caskroom/cask'
+
+# Core Homebrew
+brew 'fswatch'
+brew 'gdbm'
+brew 'gettext'
+brew 'git'
+brew 'gmp'
+brew 'go'
+brew 'icu4c'
+brew 'isl'
+brew 'libidn2'
+brew 'libmpc'
+brew 'libunistring'
+brew 'mongodb-community'
+brew 'mpfr'
+brew 'ncurses'
+brew 'node'
+brew 'openssl'
+brew 'openssl@1.1'
+brew 'pcre'
+brew 'pcre2'
+brew 'pkg-config'
+brew 'postgresql'
+brew 'python'
+brew 'readline'
+brew 'sqlite'
+brew 'telnet'
+brew 'watchman'
+brew 'wget'
+brew 'xz'
+brew 'zsh'
+
+# Cask Apps
+cask '==> Tapping homebrew/cask'
+cask 'Tapped 1 command and 3498 casks (3,615 files, 3.9MB).'
+

@@ -2,12 +2,11 @@
 # Matthew Robillard
 #---------------------------------------------------------------------------------------------------
 
-
 #---------------------------------------------------------------------------------------------------
 # Aliases
 #---------------------------------------------------------------------------------------------------
 
-alias ll='ls -al'
+alias ll='ls -al'                           # Preferred 'long list' implementation 
 alias cp='cp -iv'                           # Preferred 'cp' implementation
 alias mv='mv -iv'                           # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
@@ -53,4 +52,3 @@ extract () {
 # Compress: Create a ZIP archive of a folder
 #---------------------------------------------------------------------------------------------------
 zipf () { zip -r "$1".zip "$1" ; }          
-
